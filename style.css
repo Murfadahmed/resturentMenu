@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.foodBtn {
+    border: none;
+    margin-left: 0.5rem;
+    padding: 0.7rem;
+    border-radius: 2rem;
+}
+
+.foodBtn:hover {
+    background-color: lightsalmon;
+}
+
+.heading span {
+    display: flex;
+    width: 20rem !important;
+    height: 0.5rem !important;
+    background-image: linear-gradient(to right, rgb(230, 180, 180), rgb(62, 123, 62));
+    margin-bottom: 2px;
+}
+
+.sectionMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main:nth-child(odd){
+   background-color: lightgoldenrodyellow;
+   
+}
+.picture {
+    height: 20rem;
+    width: 20rem;
+    padding: 1.2rem;
+    transition: all 2s linear;
+    border-radius: 2.1rem;
+}
+.picture:hover{
+    transform: translatex(5rem);
+    transition: all 2s linear;
+}
